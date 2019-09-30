@@ -1,0 +1,32 @@
+{
+  "name": "digitevent-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./dist/router.js",
+    "build": "npx babel src --out-dir dist",
+    "dev": "nodemon --exec babel-node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VincentMaret/digitevent-api.git"
+  },
+  "author": "Vincent Maret",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VincentMaret/digitevent-api/issues"
+  },
+  "homepage": "https://github.com/VincentMaret/digitevent-api#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.6.2",
+    "@babel/core": "^7.6.2",
+    "@babel/node": "^7.6.2",
+    "@babel/preset-env": "^7.6.2",
+    "nodemon": "^1.19.3"
+  }
+}
