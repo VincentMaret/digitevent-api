@@ -8,7 +8,7 @@ npm i
 ```
 npm run build
 ```
-### Launch dev server on port 3000 or process.env.PORT if set
+### Launch dev server on port 3000 or process.env.PORT if implemented
 ```
 npm run dev
 ```
