@@ -37,7 +37,7 @@ function () {
           case 2:
             values = _context.sent;
             res.send({
-              result: values
+              data: values
             });
 
           case 4:

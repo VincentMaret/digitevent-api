@@ -13,7 +13,7 @@ app.set('port', process.env.PORT || 3000);
 //----------------------------------------------
 app.get('/', async function (req, res) {
   const values = await getDatesInfo(req.query.dates);
-  res.send({ result: values });
+  res.send({ data: values });
 })
 
 //----------------------------------------------
