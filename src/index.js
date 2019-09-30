@@ -1,4 +1,5 @@
 'use strict';
+import polyfill from 'babel-polyfill';
 import express from 'express';
 import cors from 'cors';
 import { getDatesInfo } from './numbersapi';
